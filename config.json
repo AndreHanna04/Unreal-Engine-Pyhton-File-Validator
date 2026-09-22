@@ -1,0 +1,21 @@
+{
+  "max_file_size_mb": 50,
+  "max_filename_length": 64,
+  "naming_pattern": "^[A-Z][a-zA-Z0-9_]+$",
+  "required_prefixes": {
+    "SM_": [".fbx", ".uasset", ".gltf"],
+    "T_": [".png", ".exr", ".tga"],
+    "M_": [".uasset"]
+  },
+  "valid_extensions": [".png", ".uasset", ".exr", ".tga", ".fbx"],
+  "actor_tick_tag": "tick",
+  "allowlist": [
+    {
+      "rule_name": "filesize_rule",
+      "asset": "*/Cutscenes/*.uasset",
+      "reason": "Pending compression pass, ticket VAL-42",
+      "author": "andre",
+      "expiry": "2026-09-01"
+    }
+  ]
+}

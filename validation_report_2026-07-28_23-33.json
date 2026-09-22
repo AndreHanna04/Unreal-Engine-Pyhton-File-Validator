@@ -1,0 +1,2269 @@
+{
+  "generated_at": "2026-07-28 23:33",
+  "summary": {
+    "asset_pass_count": 59,
+    "rule_pass_count": 242,
+    "asset_fail_count": 2,
+    "rule_fail_count": 2,
+    "rule_skip_count": 111
+  },
+  "assets": [
+    {
+      "asset_path": "/Game/Global/DemoRoom/Blueprints/BP_DemoDisplay.BP_DemoDisplay",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "ERROR",
+          "passed": false,
+          "message": "Actor has tick enabled but is missing the required 'tick' tag",
+          "skipped": false
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Blueprints/BP_DemoRoom.BP_DemoRoom",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "ERROR",
+          "passed": false,
+          "message": "Actor has tick enabled but is missing the required 'tick' tag",
+          "skipped": false
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_DemoRoom.M_DemoRoom",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_Display.M_Display",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_Glow.M_Glow",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_Metal.M_Metal",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_Tile.M_Tile",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_Tile_2.M_Tile_2",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_Tile_Glossy.M_Tile_Glossy",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_Tile_Grey.M_Tile_Grey",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/M_UELogo.M_UELogo",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/MD_Col.MD_Col",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/MD_WarningBase.MD_WarningBase",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "Single-sided - culling applies.",
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/MI_Display_Blue.MI_Display_Blue",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/MI_Display_Gray.MI_Display_Gray",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/MI_Metal_Light.MI_Metal_Light",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/MI_Tile_Ceiling.MI_Tile_Ceiling",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/MI_TileBlack.MI_TileBlack",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/Textures/DemoRoomThumb.DemoRoomThumb",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/Textures/T_GrungySurface_slnneipc_4K_MR.T_GrungySurface_slnneipc_4K_MR",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Materials/Textures/T_Warning_A.T_Warning_A",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Button.Button",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Display_Button.Display_Button",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Display_Corner_B.Display_Corner_B",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Display_Curve_B.Display_Curve_B",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Display_EdgeCurve_B.Display_EdgeCurve_B",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Display_Main_B.Display_Main_B",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Display_Side_B.Display_Side_B",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Floor_Corner.Floor_Corner",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Floor_Edge.Floor_Edge",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Pipe.Pipe",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/ShadowBox_1MPanel.ShadowBox_1MPanel",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/ShadowBox_1MPanel2.ShadowBox_1MPanel2",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/ShadowBox_RoundEdge.ShadowBox_RoundEdge",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Slider_Button.Slider_Button",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/SM_Door.SM_Door",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/SM_SliderBase.SM_SliderBase",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/SM_SliderBase_Cap.SM_SliderBase_Cap",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/SM_VizButton.SM_VizButton",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Splitter_Curve.Splitter_Curve",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Splitter_Wall.Splitter_Wall",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Splitter_Wall2.Splitter_Wall2",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/TagBar_Middle.TagBar_Middle",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/TagBar_TitleCap.TagBar_TitleCap",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/TagBar_TitleCap1.TagBar_TitleCap1",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Tile_10MPillar_B.Tile_10MPillar_B",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Tile_10MWall.Tile_10MWall",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Tile_Edge.Tile_Edge",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Tile_InnerCurve_B.Tile_InnerCurve_B",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Tile_InnerCurveEdge.Tile_InnerCurveEdge",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/Tile_InnerCurveEdge2.Tile_InnerCurveEdge2",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/TrimFeature_MetalTrim_Bend.TrimFeature_MetalTrim_Bend",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/TrimFeature_MetalTrim_Straight.TrimFeature_MetalTrim_Straight",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Meshes/UELogo.UELogo",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Misc/DT_Colourways.DT_Colourways",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Misc/E_EnclosureLevel.E_EnclosureLevel",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Misc/E_RoomLighting.E_RoomLighting",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Misc/S_Colour.S_Colour",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/Misc/S_RoomSettings.S_RoomSettings",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/TemplateRoom.TemplateRoom",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "asset_path": "/Game/Global/DemoRoom/TestRoom.TestRoom",
+      "checks": [
+        {
+          "rule_name": "tick_rule",
+          "rule_category": "ACTOR",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Rule is only applicable to Blueprints, asset isn't a Blueprint",
+          "skipped": true
+        },
+        {
+          "rule_name": "extention_rule",
+          "rule_category": "NAMING",
+          "rule_severity": "ERROR",
+          "passed": true,
+          "message": "Extension .uasset is allowed",
+          "skipped": false
+        },
+        {
+          "rule_name": "filesize_rule",
+          "rule_category": "FILESIZE",
+          "rule_severity": "WARNING",
+          "passed": true,
+          "message": "asset is valid size, less than 50 limit",
+          "skipped": false
+        },
+        {
+          "rule_name": "material_two_sided",
+          "rule_category": "MATERIAL",
+          "rule_severity": "INFO",
+          "passed": true,
+          "message": "Asset is not a Material.",
+          "skipped": true
+        }
+      ]
+    }
+  ]
+}
